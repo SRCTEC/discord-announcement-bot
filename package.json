@@ -1,0 +1,22 @@
+{
+  "name": "discord-announcement-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for scheduled announcements and reminders",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.0.3",
+    "sqlite3": "^5.1.7"
+  }
+}
